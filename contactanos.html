@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--Mi css-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<!--Inicio pagina--> 
+   
+ <!--NAVBAR-->
+ <nav class="navbar navbar-expand-sm navbar-light">
+  <!-- Logo -->
+  <a class="navbar-brand" href="index.html"><img src="/img/LogoBrancy.png" class="logonavbar" alt=""></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="./sobrenosotros.html">Sobre nosotros</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./proyectos.html">Proyectos</a>
+    </li>
+    
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="./servicios.html" id="navbardrop" data-toggle="dropdown">
+        Servicios
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Diseño de branding</a>
+        <a class="dropdown-item" href="#">Desarrollo web</a>
+        <a class="dropdown-item" href="#">Diseño UX</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./visitanos.html">Visitanos</a>
+    </li>
+    <a href="./contactanos.html" class="btn btn-dark justify-content-end btn__contactanos" role="button">Contactanos</a>
+  </ul>
+</nav>
+
+<!--Fin de navbar-->
+
+<section><img src="./img/barra1.jpg" class="barra1" alt=""></section>
+
+<section class="contactanos">
+ <h1 class="titulo__contactanos">¡Queremos trabajar este año con vos!</h1>
+ <h3>Contactanos y realiza todas las consultas que tengas</h3>
+</section>
+
+<hr>
+
+<div style="padding: 20px;">
+  <h3> ¿Sobre qué es tu consulta?</h3>
+
+<!--Selecciona el servicio-->
+
+ <form>
+  <select name="cars" class="custom-select">
+    <option selected>Selecciona el servicio</option>
+    <option value="Diseño UX">Diseño UX</option>
+    <option value="Desarrollo web">Desarrollo web</option>
+    <option value="Diseño de identidad de marca">Diseño de identidad de marca</option>
+  </select>
+ </form>
+
+ <!--escribir consulta-->
+
+ <section class="form-group pad__form">
+  <label for="comment">Dejanos acá tu consulta:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+ </section>
+
+<!--Nombre-->
+
+ <div class="form-group">
+  <label for="exampleFormControlInput1">Tu nombre</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1">
+ </div>
+
+ <!--mail-->
+
+ <div class="form-group">
+  <label for="exampleFormControlInput1">Mail</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+ </div>
+
+<form>
+  <div class="custom-control custom-switch pad__toggle" >
+    <input type="checkbox" class="custom-control-input" id="switch1">
+    <label class="custom-control-label" for="switch1">Guardar mi mail y notificarme las novedades</label>
+  </div>
+</form>
+
+<!--Boton-->
+
+<button type="button" class="btn btn-lg btn-block">Enviar consulta</button>
+
+</div>
+
+
+
+<!-- Scripts de bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>    
+</body>
+</html>

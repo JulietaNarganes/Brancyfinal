@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1F1F1;
+}
+
+.navbar {
+    background-color: #C7D5D6;
+    display: flex;
+    padding-left: 15px;
+}
+
+.logonavbar {
+    height: 80px;
+    width: auto;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn__contactanos {
+    font-size: 25px;
+    position: relative;
+    top: 0px; left: 400px;
+    
+}
+
+.gridImgHome {
+    display: grid;
+    grid-template-columns: 340px 500px;
+    grid-template-rows: 230px 245px;
+    padding-left: 40px;
+    padding-top: 10px;
+    grid-template-areas: 
+    "section section h1"
+    "section section h1"
+
+}
+
+.bloque__home {
+    text-align: right;
+    line-height: 80px;
+    font-style: italic;
+    font-weight: 700;
+    height: 700px;
+    width: 345px;
+    padding-top: 20px;
+    overflow: visible;
+
+}
+
+.imghome {
+    height: 220px;
+    width: auto;
+}
+
+.titulo__home {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 25px;
+
+}
+
+.contactanos {
+   text-align: center;
+   padding-top: 20px;
+}
+
+.titulo__contactanos {
+    font-weight: 800;
+}
+
+
+.barra1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.pad__form {
+    padding-top: 30px;
+}
+
+.pad__toggle {
+    padding: 10px;
+    padding-left: 43px;
+}
+
+.custom-select {
+    width: 1223px;
+    position: relative;
+    ;
+}
+
+.btn-contactanos {
+    background-color: #C7D5D6;
+}
+
+.logofooter {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    padding: 30px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.marcas {
+    width: 60px;
+    padding-bottom: 20px;
+}
+
+.gridServiciosHome {
+    display: grid;
+    grid-template-areas:
+    "div div div";
+}
+
+.tituloserviciosHome {
+    text-align: center;
+    font-weight: 700;
+}
+
+.textoserviciosHome {
+    font-weight: 600;
+}
+
+
+*{margin: 0;padding: 0;
+    box-sizing: border-box;}
+    
+    .contenedor{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+    .contenedor figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    .contenedor figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .contenedor figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #C7D5D6;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor figure:hover > .capa h3{
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .contenedor figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor figure .capa h3{
+        color: black;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor figure .capa p{
+        color: #000;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+.titulo__sobrenos {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.imgnos1 {
+    height: 300px;
+}
+
+.textonos1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.quienessomos {
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.personas {
+    width: 300px;
+}
+
+.mapa {
+    padding-left: 60px;
+}

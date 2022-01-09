@@ -6,7 +6,7 @@ $gris: #F1F1F1;
 
 $marcas: 60px;
 
-$bold: 500;
+$bold: 700;
 
 $titulo: 30px;
 
@@ -22,8 +22,13 @@ $paddingsubtitulos: 10px;
     padding: $paddingtitulos;
 }
 
-.personas {
+.personastitulo {
     font-size: $subtitulo;
     font-weight: $bold;
     padding: $paddingsubtitulos;
+}
+
+.card-title {
+    font-weight: $bold;
+    text-align: center;
 }

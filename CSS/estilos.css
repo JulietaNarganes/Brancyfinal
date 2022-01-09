@@ -252,3 +252,13 @@
     justify-content: center;
     padding: 30px;
 }
+
+.gridProceso {
+    display: grid;
+    grid-template-areas: 
+    "img img"
+    "img img";
+    padding-left: 135px;
+    grid-template-columns: 480px 200px;
+    grid-template-rows: 320px 310px;
+}

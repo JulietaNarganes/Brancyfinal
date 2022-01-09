@@ -6,6 +6,24 @@ $gris: #F1F1F1;
 
 $marcas: 60px;
 
-.marcas {
-    width: $marcas;
+$bold: 500;
+
+$titulo: 30px;
+
+$subtitulo: 20px;
+
+$paddingtitulos: 20px;
+
+$paddingsubtitulos: 10px;
+
+.quienessomos {
+    font-size: $titulo;
+    font-weight: $bold;
+    padding: $paddingtitulos;
+}
+
+.personas {
+    font-size: $subtitulo;
+    font-weight: $bold;
+    padding: $paddingsubtitulos;
 }
